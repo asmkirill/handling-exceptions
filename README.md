@@ -10,8 +10,12 @@ The structure of the error message should be as follows:
 "Error code: {error message}".
 
 arguments of a function - two integers, separated by spaces:
-divide("8 2") return 4.0
 
-divide("6 0") return "Error code: division by zero"
+divide("8 2") 
+>>> 4.0
 
-divide("$ 2") return "Error code: invalid literal for int() with base 10: '$'"
+divide("6 0") 
+>>> "Error code: division by zero"
+
+divide("$ 2") 
+>>> "Error code: invalid literal for int() with base 10: '$'"
