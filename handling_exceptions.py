@@ -1,10 +1,10 @@
 from typing import Union
 
 
-def divide(str_with_ints: str) -> Union[float, str]:
+def divide(data_two_ints: str) -> Union[float, str]:
 
     # Removes whitespace from input string
-    str_with_ints_clear = str_with_ints.replace(' ', '')
+    str_with_ints_clear = data_two_ints.replace(' ', '')
 
     list_num = []
     list_str = []
